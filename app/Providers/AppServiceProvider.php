@@ -44,4 +44,6 @@ class AppServiceProvider extends ServiceProvider
             ->middleware('api')
             ->group(base_path('routes/api.php'));  // pastikan file api.php benar
     }
+
+    
 }
